@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="19H114" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Credentials" representedClassName="Credentials" syncable="YES">
+        <attribute name="passW" optional="YES" attributeType="String"/>
+        <attribute name="secAnsw" optional="YES" attributeType="String"/>
+        <attribute name="secQ" optional="YES" attributeType="String"/>
+        <attribute name="userN" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="SurvRes" representedClassName="SurvRes" parentEntity="Credentials" syncable="YES">
+        <attribute name="fdQ1" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="fdQ2" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="fdQ3" optional="YES" attributeType="String"/>
+        <attribute name="gymQ1" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="gymQ2" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="gymQ3" optional="YES" attributeType="String"/>
+        <attribute name="rmQ1" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="rmQ2" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="rmQ3" optional="YES" attributeType="String"/>
+        <attribute name="userName" attributeType="String" defaultValueString=""/>
+    </entity>
+    <elements>
+        <element name="Credentials" positionX="-63" positionY="-18" width="128" height="103"/>
+        <element name="SurvRes" positionX="-63" positionY="9" width="128" height="193"/>
+    </elements>
+</model>
