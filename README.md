@@ -50,4 +50,4 @@ From here you can choose any of the three surveys to fill out regarding your sta
 Jared Marriner
 
 ## License
-This Project uses
+This Project uses the GNU General Public License v3
